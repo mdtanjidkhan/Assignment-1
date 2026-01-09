@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+nav{
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+    
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 34px;
+    gap: 32px;
+   
+
+
+}
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+  
+      
+
+}
+.menu :hover{
+    color: aqua;
+}
+
+.btn{
+    margin:24px 120px 24px ;
+    width: 164px;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+  
+
+}
+
+.img{
+    margin: 16px 0 16px 120px;
+    
+    
+
+}
+.hero-section{
+    
+    padding: 120px;
+    text-align: center;
+    background-image: url(./assets/hero-bg.png);
+
+    
+    
+}
+.hero-content{
+    
+    font-size: 16px;
+    color: #11803f;
+    background-color: white;
+    border-radius:10px ;
+    font-weight: medium;
+    width: 229px;
+    height: 35px;
+    margin-bottom:16px ;
+    cursor: pointer;
+
+}
+.hero{
+    font-size: 50px;
+    color: #FFFFFF;
+    
+    
+}
+.about{
+    color: #11803f;
+    
+}
+.hero-section p{
+    padding-top: 16px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.contact{
+    padding-top: 32px;
+    
+    
+
+    
+    
+}
+.hero-item{
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #11803f;
+    width: 251px;
+    height: 52px;
+    border-radius: 5px;
+    background-image:url(./assets/ArrowRight.png) ;
+    background-position: right;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+
+
+}
+.item{
+    margin-left: 20px;
+    width: 198px;
+    height: 52px;
+    background-color: #001931;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+#just{
+    text-align: center;
+    padding: 30px;
+}
+ #just h1{
+    font-size: 48px;
+    font-weight: bold;
+    color:green;
+ }   
+ #just p{
+    padding-top: 16px;
+    font-size: 16px;
+    color: #627382;
+ }
+ #soft-blue{
+    width: 1360px;
+display: flex;
+gap: 24px;
+margin:44px  120px 120px 120px;
+
+
+
+ }
+#soft-blue h3{
+    font-size: 24px;
+    color: #001931;
+
+}
+ #soft-blue P{
+    font-size: 16px;
+    color: #627382;
+ }
+
+ .note{
+width: 322px;
+height: 50px;
+text-align: center;
+padding: 145px 24px 125px 24px;
+
+ }
+.sky-blue{
+    width: 322px;
+height: 50px;
+text-align: center;
+padding: 145px 24px 125px 24px;
+
+ }
+.sky{
+    width: 322px;
+height: 50px;
+text-align: center;
+padding: 145px 24px 125px 24px;
+
+ }
+.light{
+    width: 322px;
+height: 50px;
+text-align: center;
+padding: 145px 24px 125px 24px;
+
+ }
+ .info{
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    
+ }
+.info-card{
+    width: 600px;
+    
+    margin-top: 20px;
+    
+    
+
+}
+.card{
+    margin-top: 120px;
+}
+.card h4{
+    font-size: 16px;
+    color: #469165;
+    padding-bottom: 16px;
+}
+.card h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}  
+.card P{
+    font-size: 16px;
+    color: #627382;
+    padding-top: 16px;
+
+}
+.card ul{
+    padding-top: 40px;
+    list-style-image: url(./assets/CheckCircle.png);
+
+    font-size: 16px;
+    color: #001931;
+}
+.cta-section{
+    width: 1360px;
+    height: 384px;
+    max-width: 1600px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 80px 120px 120px 120px;
+    background-color: #F7F6F2;
+    border-radius: 10px;
+    
+}
+.bg-dark{
+    padding-top: 80px;
+    text-align: center;
+
+}
+.bg-dark h3{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: auto;
+    font-family:'Times New Roman', Times, serif;
+    color: #001931;
+    padding-bottom: 16px;
+}
+.bg-dark p{
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 24px;
+    color: #627382;
+}
+.inner{
+text-align: center;
+
+}
+.inner .sec-inner{
+    width: 160px;
+    height: 52px;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #11803f;
+    text-align: left;
+    background-image: url(./assets/ArrowRight.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+    
+}
+.inner h5{
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+.list-footer{
+    width: 1600px;
+    
+    background-color: #001931;
+}
+.footer-left{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 120px 164px 120px;
+    
+    
+    
+}
+.footer-img{
+padding-top: 120px;
+gap: 90px;
+}
+.footer-left P{
+    padding-top: 120px;
+    
+}
+.footer-right p{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+color: #FFFFFF;
+padding-bottom: 10px;
+}
+
+.footer-item p{
+    text-align: center;
+    font-size: 20px;
+    color: #F7F6F2;
+    padding: 10px 30px;
+}
+.note img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+.sky-blue img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+.sky img{
+width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.light img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+
+
+
+
+    
+
+
+
+
