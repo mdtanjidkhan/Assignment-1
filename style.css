@@ -94,27 +94,23 @@ nav{
 }
 .contact{
     padding-top: 32px;
-    
-    
-
-    
-    
+    display: flex;
 }
 .hero-item{
     font-size: 16px;
     color: #FFFFFF;
     background-color: #11803f;
-    width: 251px;
-    height: 52px;
+    padding: 0 10px;
     border-radius: 5px;
-    background-image:url(./assets/ArrowRight.png) ;
-    background-position: right;
-    background-repeat: no-repeat;
     cursor: pointer;
-    
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
 
 
 }
+
 .item{
     margin-left: 20px;
     width: 198px;
